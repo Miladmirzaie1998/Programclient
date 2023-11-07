@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miladmirzaie</title>
+<style>
+   @media screen and (max-width:768px) {
+    table
+    {
+        position: absolute;
+        display:flex;
+        right:50%;
+    }
+}
+table{
+    top: 20%;
+    left: 25%;
+    align-items: center;
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 16pt;
+}
+td{
+    border:1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+th{
+
+    padding-bottom:5px;
+    text-align: center;
+    font-size: 22pt;
+    background-color: rgb(112, 110, 110);
+    color: white;
+}
+tr:nth-child(even){
+    background-color:gainsboro ;
+}
+tr:nth-child(odd){
+    background-color:rgb(235, 235, 236) ;
+}
+td:nth-child(even){
+ background-color: #f3f1f1;   
+}
+</style>
+
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th colspan="5">جدول محصولات</th>
+        </tr>
+        <tr>
+            <td>کد محصول</td>
+          <td> نام محصول</td>
+          <td>تعداد محصول</td>
+          <td> قیمت محصول</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>iphone15</td>
+            <td>20</td>
+            <td>20,000,000</td>
+        </tr>
+        <tr>
+            
+            <td>2</td>
+            <td>iphone15 pro</td>
+            <td>14</td>
+            <td>25,000,000</td>
+        </tr>
+        <tr>
+                <td>3</td>
+                <td>iphone15 pro max</td>
+                <td>18</td>
+                <td>38,000,000</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>s21 Ultra</td>
+            <td>11</td>
+            <td>36,000,000</td>
+        
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>A52</td>
+        <td>12</td>
+        <td>16,000,000</td>
+    
+</tr>
+    </table>
+</body>
+</html>
